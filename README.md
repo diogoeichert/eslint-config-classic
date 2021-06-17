@@ -8,7 +8,7 @@
 
 ## Install
 ```
-npm install --save-dev eslint eslint-config-classic
+npm install --save-dev eslint-config-classic
 ```
 
 ## Usage
