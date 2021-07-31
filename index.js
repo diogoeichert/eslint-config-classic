@@ -47,6 +47,7 @@ module.exports = {
 		],
 
 		"no-multi-spaces": "error",
+		"no-trailing-spaces": "error",
 
 		"padding-line-between-statements": [
 			"error",
