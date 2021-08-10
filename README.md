@@ -20,9 +20,9 @@ module.exports = {
 ```
 
 ### Optional
-Enhance the test script in `package.json` to precede it with `eslint`. Adding the `--fix` parameter will automatically fix files:
+Add a `lint` script in `package.json`. Adding the `--fix` parameter will automatically fix files:
 ```
 "scripts": {
-	"test": "eslint --fix . && node ./test.js"
+	"lint": "eslint --fix ."
 },
 ```
