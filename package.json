@@ -26,6 +26,6 @@
 	},
 	"homepage": "http://diogoeichert.github.io/eslint-config-classic/",
 	"dependencies": {
-		"eslint": "^7.28.0"
+		"eslint": "^8.10.0"
 	}
 }
