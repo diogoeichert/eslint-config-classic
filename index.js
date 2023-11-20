@@ -21,6 +21,11 @@ module.exports = {
 		node: true,
 	},
 	extends: ["eslint:recommended", "plugin:prettier/recommended"],
+	overrides: [
+		{
+			files: ["*.cjs", "*.js", "*.mjs"],
+		},
+	],
 	parserOptions: {
 		ecmaVersion: 11,
 		sourceType: "module",
