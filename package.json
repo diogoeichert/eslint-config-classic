@@ -24,6 +24,9 @@
 	"bugs": {
 		"url": "https://github.com/diogoeichert/eslint-config-classic/issues"
 	},
+	"funding": {
+		"url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=eslint-config-classic&currency_code=EUR"
+	},
 	"homepage": "http://diogoeichert.github.io/eslint-config-classic/",
 	"dependencies": {
 		"eslint": "^8.10.0"
