@@ -6,7 +6,6 @@
  */
 const MULTILINE_STATEMENT_TYPES = [
 	"block-like",
-	"expression",
 	"multiline-const",
 	"multiline-expression",
 	"multiline-let",
