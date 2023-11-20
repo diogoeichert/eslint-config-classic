@@ -3,6 +3,9 @@
 	"version": "1.7.1",
 	"description": "ESlint rules for classic-style JavaScript",
 	"main": "index.js",
+	"bin": {
+		"eslint-config-classic": "./bin/run.js"
+	},
 	"prettier": {
 		"semi": true,
 		"singleQuote": false,
