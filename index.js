@@ -1,68 +1,68 @@
+"use strict";
+
+/**
+ * Statements that can become multi-line blocks of code.
+ * Source: https://eslint.org/docs/latest/rules/padding-line-between-statements
+ */
+const MULTILINE_STATEMENT_TYPES = [
+	"block-like",
+	"expression",
+	"multiline-const",
+	"multiline-expression",
+	"multiline-let",
+	"multiline-var",
+];
+
 module.exports = {
-	"env": {
-		"browser": true,
-		"commonjs": true,
-		"es2020": true,
-		"node": true
+	env: {
+		browser: true,
+		commonjs: true,
+		es2020: true,
+		node: true,
 	},
-
-	"extends": "eslint:recommended",
-
-	"parserOptions": {
-		"ecmaVersion": 11
+	extends: ["eslint:recommended", "plugin:prettier/recommended"],
+	parserOptions: {
+		ecmaVersion: 11,
+		sourceType: "module",
 	},
-
-	"rules": {
-		"brace-style": [
-			"error",
-			"1tbs"
-		],
-
-		"curly": 2,
-
-		"indent": [
-			"error",
-			"tab"
-		],
-
+	plugins: ["prettier"],
+	rules: {
+		"brace-style": ["error", "1tbs"],
+		curly: 2,
+		indent: ["error", "tab"],
 		"keyword-spacing": 2,
-
-		"linebreak-style": [
+		"linebreak-style": ["error", "unix"],
+		"max-len": [
 			"error",
-			"unix"
+			{
+				code: 80,
+			},
 		],
-
-		"no-else-return": [
-			"error"
-		],
-
+		"no-else-return": ["error"],
 		"no-multiple-empty-lines": [
 			"error",
-
 			{
 				max: 1,
 				maxBOF: 0,
-				maxEOF: 1
-			}
+				maxEOF: 1,
+			},
 		],
-
 		"no-multi-spaces": "error",
 		"no-trailing-spaces": "error",
-
 		"padding-line-between-statements": [
 			"error",
-			{ "blankLine": "always", "prev": "*", "next": "block-like" },
-			{ "blankLine": "always", "prev": "block-like", "next": "*" }
+			{
+				blankLine: "always",
+				prev: "*",
+				next: MULTILINE_STATEMENT_TYPES,
+			},
+			{
+				blankLine: "always",
+				prev: MULTILINE_STATEMENT_TYPES,
+				next: "*",
+			},
 		],
-
-		"quotes": [
-			"error",
-			"double"
-		],
-
-		"semi": [
-			"error",
-			"always"
-		]
-	}
+		quotes: ["error", "double"],
+		semi: ["error", "always"],
+	},
 };
