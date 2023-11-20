@@ -32,12 +32,6 @@ module.exports = {
 		indent: ["error", "tab"],
 		"keyword-spacing": 2,
 		"linebreak-style": ["error", "unix"],
-		"max-len": [
-			"error",
-			{
-				code: 80,
-			},
-		],
 		"no-else-return": ["error"],
 		"no-multiple-empty-lines": [
 			"error",

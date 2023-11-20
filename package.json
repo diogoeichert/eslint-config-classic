@@ -4,7 +4,6 @@
 	"description": "ESlint rules for classic-style JavaScript",
 	"main": "index.js",
 	"prettier": {
-		"printWidth": 80,
 		"semi": true,
 		"singleQuote": false,
 		"useTabs": true
