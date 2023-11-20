@@ -25,11 +25,11 @@ module.exports = {
 
 ### Optional
 
-Add a `lint` script in `package.json`. Adding the `--fix` parameter will automatically fix files:
+Add a `lint` script in `package.json`:
 
 ```
 "scripts": {
-	"lint": "eslint --fix ."
+	"lint": "eslint-config-classic"
 },
 ```
 
