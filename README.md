@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/eslint-config-classic.svg)](https://www.npmjs.com/package/eslint-config-classic)
 
 # Classic (eslint-config-classic)
-Classic-style [ESlint](https://eslint.org) rules, to write code meant to be *read*.
+Classic-style [ESlint](https://eslint.org) rules, for writing code meant to be *read*.
 
 ![classic](./classic.jpg)
 
