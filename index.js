@@ -19,7 +19,7 @@ module.exports = {
 		es2020: true,
 		node: true,
 	},
-	extends: ["eslint:recommended", "plugin:prettier/recommended"],
+	extends: ["eslint:recommended"],
 	overrides: [
 		{
 			files: ["*.cjs", "*.js", "*.mjs"],
@@ -29,7 +29,6 @@ module.exports = {
 		ecmaVersion: 11,
 		sourceType: "module",
 	},
-	plugins: ["prettier"],
 	rules: {
 		"brace-style": ["error", "1tbs"],
 		curly: 2,
