@@ -28,7 +28,7 @@ Add a `lint` script in `package.json`:
 ```
 ### Existing Configuration
 Extend `classic` from your existing `.eslintrc.js` file:
-```json
+```js
 module.exports = {
 	"extends": "classic"
 };
