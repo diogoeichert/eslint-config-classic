@@ -24,7 +24,7 @@ Add a `lint` script in `package.json`:
 ```json
 "scripts": {
 	"lint": "eslint-config-classic"
-},
+}
 ```
 ### Existing Configuration
 Extend `classic` from your existing `.eslintrc.js` file:
