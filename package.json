@@ -16,12 +16,25 @@
 		"url": "git+https://github.com/diogoeichert/eslint-config-classic.git"
 	},
 	"keywords": [
-		"classic",
+		"accessibility",
+		"braces", 
+		"classic", 
 		"config",
 		"eslint",
-		"classic",
+		"indentation",
+		"javascript",
+		"lint",
+		"linter",
+		"linting",
+		"padding",
+		"perfect",
+		"pretty",
+		"quotes",
+		"readability",
 		"rules",
-		"standard"
+		"semicolons",
+		"standard",
+		"tabs"
 	],
 	"author": "Diogo Eichert",
 	"license": "MIT",
@@ -29,7 +42,7 @@
 		"url": "https://github.com/diogoeichert/eslint-config-classic/issues"
 	},
 	"funding": {
-		"url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=diogoeichert%40icloud.com&item_name=eslint-config-classic&currency_code=EUR"
+		"url": "https://github.com/sponsors/diogoeichert"
 	},
 	"homepage": "http://diogoeichert.github.io/eslint-config-classic/",
 	"dependencies": {
