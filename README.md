@@ -4,41 +4,32 @@
 [![npm version](https://img.shields.io/npm/v/eslint-config-classic.svg)](https://www.npmjs.com/package/eslint-config-classic)
 
 # eslint-config-classic
+Classic-style [ESlint](https://eslint.org) rules, to write code meant to be *read*.
 
-[ESlint](https://eslint.org) rules for classic-style JavaScript.
+![classic](./classic.jpg)
+
+## Run
+```shell
+npx eslint-config-classic
+```
 
 ## Install
-
-```
+```shell
 npm install --save-dev eslint-config-classic
 ```
 
 ## Usage
-
-Add a `.eslintrc.js` file to your project with these lines:
-
-```
-module.exports = {
-	"extends": "classic"
-};
-```
-
-### Optional
-
+### Standalone
 Add a `lint` script in `package.json`:
-
-```
+```json
 "scripts": {
 	"lint": "eslint-config-classic"
 },
 ```
-
-#### Visual Studio Code
-
-To have the ESLint plugin on Visual Studio Code automatically fix errors, add this configuration:
-
+### Existing Configuration
+Extend `classic` from your existing `.eslintrc.js` file:
 ```json
-"editor.codeActionsOnSave": {
-	"source.fixAll.eslint": true
-},
+module.exports = {
+	"extends": "classic"
+};
 ```
