@@ -3,10 +3,10 @@
 [![license](https://img.shields.io/github/license/diogoeichert/eslint-config-classic.svg)](LICENSE)
 [![npm version](https://img.shields.io/npm/v/eslint-config-classic.svg)](https://www.npmjs.com/package/eslint-config-classic)
 
+![classic](./classic.jpg)
+
 # Classic (eslint-config-classic)
 Classic-style [ESlint](https://eslint.org) rules, for writing code meant to be *read*.
-
-![classic](./classic.jpg)
 
 ## Run
 ```shell
