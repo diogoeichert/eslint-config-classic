@@ -6,7 +6,7 @@
 ![classic](./classic.jpg)
 
 # Classic (eslint-config-classic)
-Classic-style [ESlint](https://eslint.org) rules, for writing code meant to be *read*.
+Classic-style [ESlint](https://eslint.org) rules for JavaScript.
 
 ## Run
 ```shell
