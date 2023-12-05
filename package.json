@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-classic",
-	"version": "1.8.3",
+	"version": "1.8.4",
 	"description": "ESlint rules for classic-style JavaScript",
 	"main": "index.js",
 	"bin": {
